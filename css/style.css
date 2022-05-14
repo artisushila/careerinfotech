@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
     margin: 0;
@@ -41,9 +41,7 @@ h2 {
 
 button {
     border-radius: 20px !important;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+}
 
 .card-body .abc{
     font-family: 'Raleway', sans-serif;
@@ -69,5 +67,4 @@ h3{
     font-weight: bolder;
     letter-spacing: 1px;
     font-size: 35px;
->>>>>>> e40e784c8e0a303abfe4b92123cdc799cf9269e1
 }
