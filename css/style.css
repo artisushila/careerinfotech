@@ -12,11 +12,13 @@
 }
 
 .background {
-    background: url("/img/bg1.jpg");
+    background: url("https://www.exposit.com/wp-content/uploads/2021/12/Blog_cover-121-scaled.jpeg");
     height: 100vh;
     width: 100%;
     background-attachment: fixed;
     background-size: cover;
+    opacity: 0.9;
+    height: 400px;
 }
 
 .textf {
@@ -29,7 +31,7 @@ h1 {
     color: white;
 }
 
-h3 {
+#font{
     font-family: 'Yesteryear', cursive;
     font-size: 50px;
     text-shadow: 2px 2px #000;
@@ -40,23 +42,23 @@ h2 {
 }
 
 button {
-    border-radius: 20px !important;
+    border-radius: 25px !important;
 }
 
-.card-body .abc{
+.abc{
     font-family: 'Raleway', sans-serif;
     font-weight: 900 !important;
-    background-color:  #57d882;
+    background-color:  #57d882 !important;
 }
 p{
     font-weight: normal ;
 }
-button{
+.var{
     border-radius: 25px  !important;
     color: white;
     background-color: #7ddc9d !important;
 }
-button:hover{
+.var:hover{
     color:  #57d882;
     background-color: rgb(240, 244, 247) !important;
 }
@@ -67,4 +69,25 @@ h3{
     font-weight: bolder;
     letter-spacing: 1px;
     font-size: 35px;
+}
+.color{
+    background-color: #d2fadf !important;
+    /* border-radius: 50%; */
+}
+.font{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900 !important;
+}
+.color{
+    background-color: #7ddc9d !important;
+    color: white;
+    font-weight: bold;
+}
+.title{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color:  #57d882;
+    margin: 10px;
+    padding: 2px;
+    border: 2px solid white;
 }
