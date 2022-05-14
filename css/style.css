@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+.card-body .abc{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900 !important;
+    background-color:  #57d882;
+}
+p{
+    font-weight: normal ;
+}
+button{
+    border-radius: 25px  !important;
+    color: white;
+    background-color: #7ddc9d !important;
+}
+button:hover{
+    color:  #57d882;
+    background-color: rgb(240, 244, 247) !important;
+}
+h4{
+    font-weight: bold;
+}
+h3{
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
