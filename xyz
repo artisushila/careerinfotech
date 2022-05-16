@@ -1,0 +1,64 @@
+<div class="col-md-4 col-sm-4 col-lg-4">
+    <div class="card size box1" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card-head title1 mt-3">
+            <a class="text-center h5" data-bs-toggle="collapse" data-bs-target="#Example4" aria-expanded="false"
+                aria-controls="Example4">
+                <i class='fa-brands fa-java fa-2xl my-3'></i>
+                Java real time project
+            </a>
+        </div>
+        <div class="card-body size p-4 collapse collapse-horizontal" id="Example4">
+            <p class="mt-3">
+                Java Project Ideas - Strengthen your Resume with Real-time Projects Java - one of the
+                most
+                popular programming languages. After learning Java, it's time to master it with
+                real-time
+                Java
+                project ideas. Work on real-time Java projects and stand out from the crowd.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="col-md-4 col-sm-4 col-lg-4">
+    <div class="card size box1" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card-head title1 mt-3">
+            <a class="text-center h5" data-bs-toggle="collapse" data-bs-target="#Example5" aria-expanded="false"
+                aria-controls="Example5">
+                <i class='bx bxl-javascript fa-2xl my-3'></i>
+                Java full stack developer
+            </a>
+        </div>
+        <div class="card-body size p-4 collapse collapse-horizontal" id="Example5">
+            <p class="mt-3">
+                Full Stack Java Developer :- The Full Stack Java Developer Job Guarantee Program is an
+                intense bootcamp, in partnership with HIRIST and HackerEarth, that offers a complete
+                suite
+                of full stack development skills. Complete the course to master these skills and get a
+                guaranteed job with a median pay of 9 LPA
+            </p>
+        </div>
+    </div>
+</div>
+<div class="col-md-4 col-sm-4 col-lg-4">
+    <div class="card size box1" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card-head title1 mt-3">
+            <a class="text-center h5" data-bs-toggle="collapse" data-bs-target="#Example6" aria-expanded="false"
+                aria-controls="Example6">
+                <i class="fa-brands fa-angular fa-2xl my-4"></i>
+                A Comprehensive Guide to DevOps
+            </a>
+        </div>
+        <div class="card-body size p-4 collapse collapse-horizontal" id="Example6">
+            <p class="mt-3">
+                The development of the DevOps model seeks to combine practices from software development
+                and
+                IT operation. The main advantage the DevOps process has over traditional systems
+                development
+                is speed. When implemented correctly, DevOps can reduce the life cycle of systems
+                development while enabling continuous delivery. Companies using the development
+                operations
+                model can increase efficiency while maintaining a high level of software quality.
+            </p>
+        </div>
+    </div>
+</div>

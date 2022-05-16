@@ -70,16 +70,13 @@ h3{
     letter-spacing: 1px;
     font-size: 35px;
 }
-.color{
-    background-color: #d2fadf !important;
-    /* border-radius: 50%; */
-}
+
 .font{
     font-family: 'Raleway', sans-serif;
     font-weight: 900 !important;
 }
 .color{
-    background-color: #7ddc9d !important;
+    background-color: #49cc75 !important;
     color: white;
     font-weight: bold;
 }
@@ -92,10 +89,9 @@ h3{
     border: 2px solid white;
 }
 .size{
-    background-color: white !important;
-    color: #7ddc9d;
+    color: #34c464;
     font-weight: bold;
-    background-color: #F8F8F8	 !important;
+    border-color: #fff;
 }
 .title1{
     border-top-left-radius: 30px;
@@ -104,10 +100,7 @@ h3{
     padding: 2px;
     border: 2px solid #57d882;
 }
-.box1{
-    background-color: #F8F8F8		!important;
-    /* border: 2px solid #7ddc9d; */
-}
+
 .line{
     width: 30% !important;
     height: 2px !important;
@@ -121,3 +114,7 @@ h3{
     background-color: #57d882;
     height: 2px;
 }
+.border1{
+    border-right:2px solid rgb(153, 150, 150) !important;
+}
+
