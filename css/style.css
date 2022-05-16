@@ -79,14 +79,9 @@ h3{
     background-color: #49cc75 !important;
     color: white;
     font-weight: bold;
-}
-.title{
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     background-color:  #57d882;
-    margin: 10px;
-    padding: 2px;
-    border: 2px solid white;
 }
 .size{
     color: #34c464;
@@ -107,7 +102,7 @@ h3{
     background-color: #7ddc9d !important;
 }
 .bx{
-    color: #7ddc9d !important;
+    color: #30a557 !important;
 }
 .lines{
     width: 60px; 
