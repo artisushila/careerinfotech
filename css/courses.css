@@ -2,8 +2,8 @@
 
 .h1 {
     font-size: 65px;
-    text-shadow: 2px -3px #57d882;
-    color: #d2fadf;
+    text-shadow: -2px 5px #7ca188;
+    color: white;
 }
 
 .lines {
@@ -32,4 +32,11 @@ button{
 }
 .bg{
     background-color: #E8E8E8	;
+}
+.bg1{
+    background-color: #57d882;
+}
+.f1{
+    font-size: larger;
+    font-weight: 400;
 }

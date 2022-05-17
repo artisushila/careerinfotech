@@ -35,3 +35,7 @@ p {
     height: 25rem !important;
     border-radius: 10px;
 }
+.card{
+    background: linear-gradient(to bottom, #57d882 0%, #339966 100%);
+    color: #ffff;
+}

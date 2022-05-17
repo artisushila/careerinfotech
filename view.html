@@ -8,10 +8,8 @@
     <title>Career Infotech</title>
     <!-- Favicons -->
     <link rel="shortcut icon" href="img/ci.png" type="image/x-icon">
-
     <!-- Bootstrap link -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
     <!-- main css file -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -19,6 +17,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -48,101 +47,125 @@
                     <li class="nav-item">
                         <a class="nav-link mx-md-3 fs-5 text-dark" href="courses.html"></i>Courses</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link mx-md-3 fs-5 text-dark"></i>Contact Us</a>
-                    </li>
                 </ul>
             </div>
-
-            <!-- button start -->
-            <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#Modal">Login
+            <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal1">Login
                 Here</button>
-            <!-- button end -->
-
-            <!-- modal start -->
-            <div id="Modal" class="modal fade">
-                <div class="modal-dialog" role="document">
+            <div class="modal" id="modal1">
+                <div class="modal-dialog">
                     <div class="modal-content">
-                        <div class="modal-header"> <!-- modal-header start -->
-                            <h3 class="modal-title">
-                                <i class="fa-solid fa-user-plus fa-xl mt-4"></i>
-                                Login
-                            </h3>
-                        </div> <!-- modal-header end -->
-                        <div class="modal-body"> <!-- modal body start -->
-                            <form role="form" method="POST" action="">
-                                <input type="hidden" name="_token" value="">
-                                <div class="form-group">
-                                    <label class="control-label">E-Mail Address</label>
-                                    <div>
-                                        <input type="email" class="form-control input-lg" name="email" value="">
-                                    </div>
+                        <div class="modal-body">
+                            <div class="wrapper">
+                                <div class="logo d-flex justify-content-center mt-4">
+                                    <i class="fa-solid fa-users fa-2xl text-info"></i>
                                 </div>
-                                <div class="form-group">
-                                    <label class="control-label">Password</label>
-                                    <div>
-                                        <input type="password" class="form-control input-lg" name="password">
-                                    </div>
+                                <div class="text-center mt-4 name">
+                                    Login
                                 </div>
-                                <div class="form-group">
-                                    <div>
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox" name="remember"> Remember Me
-                                            </label>
-                                        </div>
+                                <form class="p-3 mt-3">
+                                    <div class="form-field d-flex align-items-center">
+                                        <span class="far fa-user"></span>
+                                        <input type="text" name="userName" id="userName" placeholder="Username">
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <div>
-                                        <button type="submit" class="btn btn-success">Login</button>
-
-                                        <a class="btn btn-link" href="">Forgot Your Password?</a>
+                                    <div class="form-field d-flex align-items-center">
+                                        <span class="fas fa-key"></span>
+                                        <input type="password" name="password" id="pwd" placeholder="Password">
                                     </div>
+                                    <button class="btn mt-3">Login</button>
+                                </form>
+                                <div class="text-center fs-6">
+                                    <a href="#">Forget password?</a> or <a href="" data-bs-toggle="modal"
+                                        data-bs-target="#modal2">Register Here</a>
                                 </div>
-                            </form>
-                            <!-- <h1>Register Here</h1>
-                            <form role="form" method="POST" action="">
-                                <input type="hidden" name="_token" value="">
-                                <div class="form-group">
-                                    <label class="control-label">Username</label>
-                                    <div>
-                                        <input type="text" class="form-control input-lg" name="name" value="">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">E-Mail Address</label>
-                                    <div>
-                                        <input type="email" class="form-control input-lg" name="email" value="">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">Password</label>
-                                    <div>
-                                        <input type="password" class="form-control input-lg" name="password">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">Confirm Password</label>
-                                    <div>
-                                        <input type="password" class="form-control input-lg"
-                                            name="password_confirmation">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div>
-                                        <button type="submit" class="btn btn-success">
-                                            Register
-                                        </button>
-                                    </div>
-                                </div>
-                            </form> -->
-                        </div> <!-- modal body end -->
-                    </div><!-- modal-content end-->
-                </div><!-- modal-dialog end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- modal end -->
-        </nav>
+    </div>
+    <div class="modal" id="modal2">
+        <div class="modal-dialog">
+            <div class="modal-body">
+                <div class="container mt-5 mb-5">
+
+                    <div class="row d-flex align-items-center justify-content-center">
+
+                        <div class="col-md-12">
+
+
+                            <div class="card bg px-5 py-5">
+
+                                <div class="form-input">
+
+                                    <i class="fa fa-envelope"></i>
+                                    <input type="text" class="form-control" placeholder="Email address">
+
+                                </div>
+
+                                <div class="form-input">
+
+                                    <i class="fa fa-user"></i>
+                                    <input type="text" class="form-control" placeholder="User name">
+
+                                </div>
+
+
+                                <div class="form-input">
+
+                                    <i class="fa fa-lock"></i>
+                                    <input type="text" class="form-control" placeholder="password">
+
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="">
+                                    <label class="form-check-label">
+                                        I agree all the statements
+                                    </label>
+                                </div>
+
+
+                                <button class="btn btn-primary mt-4 signup">Start coding now</button>
+
+
+                                <div class="text-center mt-3">
+
+                                    <span>Or continue with these social profile</span>
+
+                                </div>
+
+
+                                <div class="d-flex justify-content-center mt-4">
+
+                                    <span class="social"><i class="fa fa-google"></i></span>
+                                    <span class="social"><i class="fa fa-facebook"></i></span>
+                                    <span class="social"><i class="fa fa-twitter"></i></span>
+                                    <span class="social"><i class="fa fa-linkedin"></i></span>
+                                </div>
+
+
+                                <div class="text-center mt-4">
+
+                                    <span>Already a member?</span>
+                                    <a href="#" class="text-decoration-none">Login</a>
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </nav>
     </div>
     <!-- navbar end -->
 
@@ -638,16 +661,13 @@
                             <h6 class="text-uppercase fw-bold">Useful Links</h6>
                             <hr class="mb-4 mt-0 d-inline-block mx-auto lines">
                             <p>
-                                <a href="#!" class="text-dark">Home</a>
+                                <a href="view.html" class="text-dark">Home</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-dark">About Us</a>
+                                <a href="about.html" class="text-dark">About Us</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-dark">Contact Us</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-dark">Privacy Policy</a>
+                                <a href="https://www.devicecares.com/" target="_blank" class="text-dark" class="text-dark">Services</a>
                             </p>
                         </div>
                         <!-- Grid column -->
