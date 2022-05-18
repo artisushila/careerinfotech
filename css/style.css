@@ -13,12 +13,10 @@
 
 .background {
     background: url("https://github.com/artisushila/careerinfotech/blob/main/img/bg1.png?raw=true");
-    height: 100vh;
-    width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: contain;
-    height: 400px;
+    background-size: cover;
+    height: 75vh;
 }
 
 .textf {
