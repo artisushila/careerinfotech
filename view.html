@@ -50,9 +50,23 @@
                     </li>
                 </ul>
                 <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
-                    data-bs-target="#modal1">Login
-                    Here</button>
+                data-bs-target="#modalb">Login Here</button>
             </div>
+            
+            <!-- modal btn start -->
+            <div class="modal" id="modalb">
+                <div class="modal-dialog">
+                    <div class="modal-content md1">
+                        <div class="modal-body d-flex justify-content-center">
+                            <button type="button" class="btn btn-light mx-2" data-bs-toggle="modal"
+                            data-bs-target="#modal1">Admin Login</button>
+                            <button type="button" class="btn btn-light mx-2" data-bs-toggle="modal"
+                            data-bs-target="#modal2">Student Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- modal btn end -->
 
 
             <!-- modal1 start -->
@@ -65,7 +79,7 @@
                                     <i class="fa-solid fa-users fa-2xl text-info"></i>
                                 </div>
                                 <div class="text-center mt-4 name">
-                                    Login
+                                   Admin Login
                                 </div>
                                 <form class="p-3 mt-3">
                                     <div class="form-field d-flex align-items-center">
@@ -76,11 +90,10 @@
                                         <span class="fas fa-key"></span>
                                         <input type="password" name="password" id="pwd" placeholder="Password">
                                     </div>
-                                    <button class="btn mt-3">Login</button>
+                                    <button class="btn mt-3">Sign up</button>
                                 </form>
                                 <div class="text-center fs-6">
-                                    <a href="#">Forget password?</a> or <a href="" data-bs-toggle="modal"
-                                        data-bs-target="#modal2">Register Here</a>
+                                    <a href="#">Forget password?</a>
                                 </div>
                             </div>
                         </div>
@@ -126,8 +139,8 @@
                                 </div>
 
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="">
-                                    <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" value="agree" id="form1" checked>
+                                    <label class="form-check-label" for="form1">
                                         I agree all the statements
                                     </label>
                                 </div>
@@ -155,7 +168,7 @@
                                 <div class="text-center mt-4">
 
                                     <span>Already a member?</span>
-                                    <a href="#" class="text-decoration-none">Login</a>
+                                    <a href="#" class="text-decoration-none">Student Login</a>
 
                                 </div>
 
